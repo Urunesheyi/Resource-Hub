@@ -1,0 +1,35 @@
+body {
+    background-color: #150578;
+    color: #E7E7E7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    
+
+}
+
+p {
+   /* margin-left: 450px; */
+   text-align: center;
+    
+}
+
+img {
+    margin-left: 600px;
+}
+
+a {
+    color:darkgrey;
+    margin-left: 700px;
+
+}
+
+a:hover {
+    color:navajowhite;
+}
+
+a:visited {
+    color:darksalmon;
+}
