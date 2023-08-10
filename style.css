@@ -1,28 +1,27 @@
 body {
     background-color: #150578;
     color: #E7E7E7;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3, p {
     text-align: center;
     
 
 }
 
-p {
-   /* margin-left: 450px; */
-   text-align: center;
-    
-}
+
 
 img {
-    margin-left: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 a {
     color:darkgrey;
-    margin-left: 700px;
+    text-align: right;
 
 }
 
@@ -32,4 +31,15 @@ a:hover {
 
 a:visited {
     color:darksalmon;
+}
+
+.links {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .8s all ease;
+}
+
+.toggle{
+    opacity: 1;
+    transform: translateY(0px);
 }
